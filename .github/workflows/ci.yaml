@@ -18,5 +18,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies and build
         run: |
-          bun install
-          bun build
+          npm install
+          npm build
